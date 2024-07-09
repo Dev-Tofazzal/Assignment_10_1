@@ -39,7 +39,7 @@
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px;
+   
     margin-top: 24px;
 }
 .banner_content img{
@@ -62,6 +62,135 @@
 /* banner part end here */
 
 /* development part start here */
+.development_main{
+    width: 1140px;
+    height: 1250px;
+    margin: 80px auto;
+    padding: 80px 90px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.development_container{
+    height: 100%;
 
+}
+.development_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.development_title h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    padding-bottom: 20px;
+}
+.development_title p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+ 
+}
+    /* development items part start here */
 
+.dev_item_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%); 
+    padding: 48px;
+   
+}  
+.item_1_content{
+    width: 70%;
+    padding-right: 70px;
+}  
+.item_1_content h1{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}  
+.item_1_content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 16px 0 32px 0;
+}  
+.item_1_content button{
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    
+}  
+.item_1_img{
+    width: 30%;
+}
+
+.dev_item_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px; 
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%); 
+    padding: 48px; 
+}
+.item_2_img{
+    width: 30%;
+}
+.item_2_content{
+    width: 70%;
+}
+.item_2_content h1{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}  
+.item_2_content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 16px 0 32px 0;
+}  
+.item_2_content button{
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    
+}  
+.dev_item_3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px; 
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%); 
+    padding: 48px;
+}
+
+    /* development items part end here */
 /* development part end here */
