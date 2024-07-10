@@ -326,7 +326,7 @@
     background-size: cover;
     background-repeat: no-repeat; 
     border-radius: 16px;
-    background-color: rgba(0 ,0 , 0, 0.2);
+    background-color: rgba(0 ,0 , 0, 0.5);
     background-blend-mode: overlay;
 }
 .support_title{
@@ -380,3 +380,25 @@
     -o-border-radius: 10px;
 }
 /* support section part end here */
+
+.foot_container{
+    width: 1140px;
+    height: 100px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot_right i{
+    font-size: 28px;
+    margin: 0 10px;
+}
+.icon1_clr{
+    color: rgb(0, 174, 255);
+}
+.icon2_clr{
+    color: black;
+}
+.icon3_clr{
+    color: rgb(0, 119, 255);
+}
