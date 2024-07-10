@@ -194,3 +194,46 @@
 
     /* development items part end here */
 /* development part end here */
+
+/* inspiration part start here */
+.inspiration_main{
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+}
+.inspiration_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 48px;
+
+}
+.inspiration_title h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    padding-bottom: 20px;
+}
+.inspiration_title p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+   
+}
+
+.inspiration_video{
+    width: 100%;
+}
+
+/* inspiration part end here */
+
+/* target part start here */
+
+
+
+/* target part end here */
