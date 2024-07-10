@@ -235,7 +235,7 @@
 /* target part start here */
 .target_main{
     width: 1140px;
-    height: 775px;
+    height: 650px;
     margin: 0 auto;  
 }
 .target_title{
@@ -316,3 +316,67 @@
     
 }
 /* target part end here */
+/* support section part start here */
+.support_main{
+    width: 1140px;
+    height: 313px;
+    margin: 10px auto;
+    background-image: url(../images/handshake.jpg);  
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 16px;
+    background-color: rgba(0 ,0 , 0, 0.2);
+    background-blend-mode: overlay;
+}
+.support_title{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    align-items: center;
+    
+    padding: 64px 45px;
+}
+.support_title h1{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+.support_title p{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+#text_input{
+    width: 400px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#submit_btn{
+    width: 120px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 600;
+    
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+/* support section part end here */
